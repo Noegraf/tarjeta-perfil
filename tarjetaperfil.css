@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&family=Outfit:wght@200&display=swap');
+
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: rgb(226, 244, 250);
+    margin: 0;
+    padding: 0;
+
+}
+
+.card {
+    
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 251, 249);
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .1);
+    width: 400px;
+    height:auto;
+    text-align: center;
+    
+    justify-content: center;
+    margin: auto;
+    margin-top: 50%;
+}
+
+header {
+   height: 200px;
+   width: auto;
+   background-color: rgb(199, 187, 172);
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+    padding: 13%;
+    
+}
+
+
+section {
+    padding: 5%;
+    text-align: center;
+}
+
+section h2 {
+    margin: .1em 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: .1em .3em;  
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    background: #4444;
+    width: 30px;
+    height: 30px;
+    line-height: 30px !important;
+    border-radius: 50%;
+    display: flex;
+    align-content: center;
+    
+}
+
+.attribution {
+    font-size: xx-small;
+    text-align: center;
+    padding: 2%;
+}
