@@ -20,9 +20,9 @@ body {
     height:auto;
     text-align: center;
     
-    justify-content: center;
+    
     margin: auto;
-    margin-top: 50%;
+    margin-top: 30%;
 }
 
 header {
@@ -43,36 +43,45 @@ img {
 
 
 section {
-    padding: 5%;
     text-align: center;
+    padding-top: 2%;
 }
+
+
 
 section h2 {
-    margin: .1em 0;
+    margin-bottom: .1em 0;
 }
 
-ul li {
-    list-style: none;
-    display: inline-block;
-    margin: .1em .3em;  
-    
+
+
+.bottons {
+    margin: auto;
 }
 
-ul li a {
+.bottons a {
+    font-family: "fontawesome";
     text-decoration: none;
     color: white;
     background: #4444;
-    width: 30px;
-    height: 30px;
-    line-height: 30px !important;
     border-radius: 50%;
-    display: flex;
-    align-content: center;
+    margin: auto;
+    font-size: 200%;
+    margin: .1em .3em;  
+    line-height: 30px !important;
     
+}
+
+
+
+a :hover {
+    color: #4444;
+    background: white ;
 }
 
 .attribution {
     font-size: xx-small;
+    text-decoration: none;
     text-align: center;
     padding: 2%;
 }
