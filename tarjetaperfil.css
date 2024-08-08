@@ -18,6 +18,8 @@ body {
   min-height: 100vh;
   margin: 0;
   background: #FCFAFA;
+  animation: fadeInUp 0.5s ease-out;
+  
 }
 
 .card {
@@ -26,26 +28,34 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  background: #FCFFFF;
-  box-shadow: 20px 0px 50px 0px rgba(247, 134, 179, 0.20), 0px 20px 50px 0px rgba(12, 189, 175, 0.20);
-  animation: fadeInUp 0.5s ease-out;
-  padding: 20px;
+  
+  
   max-width: 90%;
   box-sizing: border-box;
+  border-radius: 10px;
+background: var(--Secundario-0, #FCFFFF);
+box-shadow: 20px 0px 50px 0px rgba(247, 134, 179, 0.20), 0px 20px 50px 0px rgba(12, 189, 175, 0.20);
+
 }
 
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #FFFCFD;
-  padding: 16px 0;
+    display: flex;
+    
+    min-height: 99px;
+    padding: 16px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+  border-radius: 10px 10px 0px 0px;
+  box-sizing: border-box;
+background: var(--Primario-0, #FFFCFD);
 }
 
 .profile-img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  
 }
 
 .infocard {
@@ -87,6 +97,7 @@ h3 {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .buttons a {
@@ -99,12 +110,17 @@ h3 {
   align-items: center;
   border-radius: 50%;
   background: #FFFCFD;
-  transition: background 0.3s, color 0.3s;
+  
 }
 
 .buttons a:hover {
   background: #f0f0f0;
   color: #000;
+}
+
+.buttons a::selection {
+    animation: swashOut 0.5s;
+
 }
 
 .codeby {
@@ -118,8 +134,9 @@ h3 {
 .codeby p, .codeby a {
   color: #BEBABA;
   font-family: "Nunito Sans";
-  font-size: 13px;
+  font-size: 8px;
   margin: 0;
+  text-decoration: none;
 }
 
 .codeby a {
